@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operacionesaritmeticas", "Operacionesaritmeticas.csproj", "{47FB0EA6-5E08-4441-B671-43DA73E2213F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ope", "Ope.csproj", "{47FB0EA6-5E08-4441-B671-43DA73E2213F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaUnitaria", "..\PruebaUnitaria\PruebaUnitaria.csproj", "{E9557176-9278-40DE-93E6-632522E4EC87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{47FB0EA6-5E08-4441-B671-43DA73E2213F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47FB0EA6-5E08-4441-B671-43DA73E2213F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47FB0EA6-5E08-4441-B671-43DA73E2213F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9557176-9278-40DE-93E6-632522E4EC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9557176-9278-40DE-93E6-632522E4EC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9557176-9278-40DE-93E6-632522E4EC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9557176-9278-40DE-93E6-632522E4EC87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
