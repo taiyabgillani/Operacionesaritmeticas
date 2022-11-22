@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Ope
 {
@@ -12,7 +9,7 @@ namespace Ope
         {
         }
 
-        public static double areaCuadrado(int L1)
+        public static double AreaCuadrado(int L1)
         {
             Console.WriteLine("                                   Operaciones Aritmeticas");
             Console.WriteLine("\n                                       Area de Cuadrado");
@@ -22,7 +19,7 @@ namespace Ope
             return Math.Pow(L1, 2);
         }
 
-        public static double areaRectangulo(int Base1, int Altura1)
+        public static double AreaRectangulo(int Base1, int Altura1)
         {
             Console.WriteLine("\n                                       Area de Rectangulo ");
             
@@ -33,7 +30,7 @@ namespace Ope
             return Base1 * Altura1;
         }
 
-        public static double areaTriangulo(int Base2, int Altura2)
+        public static double AreaTriangulo(int Base2, int Altura2)
         {
             Console.WriteLine("\n                                       Area de Triangulo ");
 
@@ -44,7 +41,7 @@ namespace Ope
 
         }
 
-        public static double areaCirculo(int r)
+        public static double AreaCirculo(int r)
         {
 
             Console.WriteLine("\n                                       Area de Circulo");
@@ -56,7 +53,7 @@ namespace Ope
             return 3.1416 * Math.Pow(r, 2);
         }
 
-        public static double areaCono(int rad, int alt)
+        public static double AreaCono(int rad, int alt)
         {
 
             Console.WriteLine("\n                                       Area de Cono ");
@@ -67,7 +64,7 @@ namespace Ope
             return (rad * alt) * 3.1416;
         }
 
-        public static double areaHipotenusa(int a, int b)
+        public static double AreaHipotenusa(int a, int b)
         {
 
             Console.WriteLine("\n                                       Encuentre Hipotenusa ");
@@ -78,7 +75,7 @@ namespace Ope
             return (Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2)));
         }
         
-        public static double areaTrapecio(int Base3, int base3, int Altura3)
+        public static double AreaTrapecio(int Base3, int base3, int Altura3)
         {
 
             Console.WriteLine("\n                                       Area de Trapecio ");
@@ -87,7 +84,7 @@ namespace Ope
 
             return (Base3 + base3) * Altura3 / 2;
         }
-        public static double areaHexagono(int Perimetro, int Apotema)
+        public static double AreaHexagono(int Perimetro, int Apotema)
         {
 
             Console.WriteLine("\n                                       Area de Hexagono ");
@@ -97,7 +94,7 @@ namespace Ope
 
             return (Perimetro * Apotema) / 2;
         }
-        public static double areaElipse (int D1, int D2)
+        public static double AreaElipse (int D1, int D2)
         {
             Console.WriteLine("\n                                       Area de Elipse ");
             
